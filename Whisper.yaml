@@ -23,13 +23,11 @@ member-list:
 server-tree:
     background-color: '#fff'
     highlight:
-        color: '#d33b54'
-        background:
-            color: '#ffc'
+        color: '#f00'
     newtalk:
-        color: '#d33b54'
+        color: '#0f0'
     unread:
-        color: '#d33b54'
+        color: '#00f'
     normal:
         active:
             color: '#444'
