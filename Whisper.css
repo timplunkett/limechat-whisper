@@ -42,7 +42,7 @@ body.normal .event {
     padding: 0.2em;
     margin: 0;
     color: #363636;
-    background: #e5edf7;
+    background: #f3f3f3;
 }
 
 body.normal .event + .event {
@@ -107,6 +107,7 @@ body.normal .event .time {
     color: #a6b9c0;
 }
 
+body.normal .line[highlight=true],
 body.normal .line[highlight=true] span.message {
     background-color: #ffc;
 }
@@ -187,7 +188,7 @@ body.normal .address {
 }
 
 body.normal .highlight {
-    color: #d33b54;
+    color: #333;
     font-weight: bold;
 }
 
@@ -195,6 +196,7 @@ body.normal .highlight {
 
 body.normal .sender[type=myself] {
     color: #333;
+    background: #e5edf7;
 }
 
 body.normal .sender[type=normal] {
@@ -290,6 +292,10 @@ body.normal .message[type=dcc_send_send] {
 
 body.normal .message[type=dcc_send_receive] {
     color: #153b7c;
+}
+
+body.normal .sender[type=myself] + .message[type=privmsg] {
+    background: #e5edf7;
 }
 
 body.normal .message[type=privmsg] {

@@ -2,7 +2,7 @@
 # You cannot use color names.
 
 log-view:
-    nickname-format: '%n'
+    nickname-format: '%n: '
     scroller-highlight-color: '#d33b54'
 
 member-list:
@@ -24,6 +24,8 @@ server-tree:
     background-color: '#fff'
     highlight:
         color: '#d33b54'
+        background:
+            color: '#ffc'
     newtalk:
         color: '#d33b54'
     unread:
